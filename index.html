@@ -1,16 +1,174 @@
 <head>
-    <title>PAGE TITLE HERE</title>
+    <title>Michael Martin</title>
     <link rel="stylesheet" href="https://resources.izmichael.xyz/assets/tailwind.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="/assets/js/import-html.js"></script>
     <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/js/pulseCSS.js"></script>
+    <script src="/assets/js/worksToggles.js"></script>
+    <link rel="icon" type="image/png" href="https://resources.izmichael.xyz/assets/img/pfp.png"/>
 </head>
+
 <body>
-    <div class="HeaderImport"></div>
-    <div class="MenuImport"></div>
-    <div class="PageContent">
-        BODY GOES HERE
+    <div class="flex">
+        <div class="h-screen top-0 sticky p-4 bg-gray-100 dStandard border-l border-r border-gray-400"
+            id="sidebarParent">
+            <div class="flex flex-col justify-center w-64 h-full" id="sidebarContent">
+                <div class="flex-1 flex flex-col justify-start">
+                    <!-- <button onclick="toggleDarkMode()" class="mx-auto" style="outline: none;">
+                        <div class="w-16 h-6 px-1 flex items-center bg-white rounded-full border border-black" id="dModeToggleBtn">
+                            <div class="w-4 h-4 bg-black rounded-full"></div>
+                        </div>
+                    </button> -->
+                </div>
+                <div class="flex-1 flex flex-col justify-center py-4">
+                    <img src="https://resources.izmichael.xyz/assets/img/pfp.png"
+                        class="w-40 h-40 rounded-full mx-auto mb-2 border-2 border-white">
+                    <h1 class="text-2xl mx-auto">Michael Martin</h1>
+                    <a onclick="pulseSocial()" class="text-xl mx-auto cursor-pointer select-none">@IzMichael</a>
+                    <div class="w-16 h-px bg-gray-500 dStandard mx-auto my-2"></div>
+                    <div class="text-center mx-auto flex flex-col gap-2 text-lg" id="sidebarMenu">
+                        <a href="#">Home</a>
+                        <a href="#about">About Me</a>
+                        <a href="#works">Works</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="flex-1 flex flex-col justify-end" id="socialMenu">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col w-full px-4 bg-white pageContent dStandard" id="pageContent">
+            <section class="w-full h-screen border-b-2 py-4 flex justify-center items-center">
+                <div>
+                    <h1 class="text-6xl font-stnd">Hey! I'm Michael!</h1>
+                    <h2 class="text-4xl">And this is my website.</h2>
+                    <hr class="border-t-2 border-gray-500 my-2">
+                    <h4 class="text-2xl">Here you can find info about me, a list of my projects, and more.
+                    </h4>
+                    <h4 class="text-2xl">The sidebar on the left contains the menu.</h4>
+                </div>
+            </section>
+            <section class="w-full h-screen border-b-2 py-4 flex justify-center items-center" id="about">
+                <div class="w-2/3">
+                    <h2 class="text-4xl font-stnd mb-4">About</h2>
+                    <p class="text-xl">Hello, my name is Michael. I was born in Hampshire, England in 2006. In 2012, my
+                        family and I moved to the Hibiscus Coast of New Zealand. I enjoy reading, playing Video Games
+                        such
+                        as Minecraft, Cities: Skylines, Among Us, and Microsoft Flight Simulator X, and watching Netflix
+                        / Disney
+                        + /
+                        YouTube. I'm interested in cities and city infrastructure such as public transport and law. I'm
+                        also
+                        interested in filming and photography.</p>
+                </div>
+            </section>
+            <section class="border-b-2 py-16 flex flex-col justify-center items-center" id="works">
+                <div class="mx-auto text-left worksDisplay">
+                    <h2 class="text-4xl font-stnd mb-4">Works</h2>
+                    <div class="flex flex-row worksDisplay mx-auto gap-5">
+                        <button
+                            class="text-2xl mb-2 flex-1 bg-blue-200 p-2 rounded-lg cursor-pointer select-none focus:shadow-outline"
+                            onclick="worksDisplayShow1()" style="outline: none;">Personal Projects</button>
+                        <button
+                            class="text-2xl mb-2 flex-1 bg-red-200 p-2 rounded-lg cursor-pointer select-none focus:shadow-outline"
+                            onclick="worksDisplayShow2()" style="outline: none;">As Light On Dev</button>
+                        <button
+                            class="text-2xl mb-2 flex-1 bg-green-200 p-2 rounded-lg cursor-pointer select-none focus:shadow-outline"
+                            onclick="worksDisplayShow3()" style="outline: none;">Other Projects</button>
+                    </div>
+                    <div class="mb-4 grid overflow-x-scroll mx-auto gap-5 grid-rows-1 grid-flow-col worksDisplay py-2"
+                        id="worksADisplay">
+                        <div class="p-5 bg-gray-400 worksItem rounded-lg">
+                            <h3 class="text-2xl">IzMichael</h3>
+                            <a class="text-lg worksURL" href="https://izmichael.xyz">https://izmichael.xyz</a>
+                            <p class="text-xl">This is my Personal Website. It has information about me, my projects,
+                                and
+                                more.</p>
+                        </div>
+                        <div class="p-5 bg-gray-400 worksItem rounded-lg">
+                            <h3 class="text-2xl">IzWrites</h3>
+                            <a class="text-lg worksURL" href="https://blog.izmichael.xyz">https://blog.izmichael.xyz</a>
+                            <p class="text-xl">This is my Blog. I write about tech, life, and more.</p>
+                        </div>
+                        <div class="p-5 bg-gray-400 worksItem rounded-lg">
+                            <h3 class="text-2xl">IzDownload</h3>
+                            <a class="text-lg worksURL"
+                                href="https://download.izmichael.xyz">https://download.izmichael.xyz</a>
+                            <p class="text-xl">This is my website for downloading my Programs and Scripts.</p>
+                        </div>
+                    </div>
+                    <div class="hidden mb-4 grid overflow-x-scroll mx-auto gap-5 grid-rows-1 grid-flow-col worksDisplay py-2"
+                        id="worksBDisplay">
+                        <div class="p-5 bg-gray-400 worksItem rounded-lg">
+                            <h3 class="text-2xl">Light On Dev</h3>
+                            <a class="text-lg worksURL" href="https://lightondev.xyz">https://lightondev.xyz</a>
+                            <p class="text-xl">This is the main website for the Light On Dev Company.</p>
+                        </div>
+                        <div class="p-5 bg-gray-400 worksItem rounded-lg">
+                            <h3 class="text-2xl">The Rosy Shell</h3>
+                            <a class="text-lg worksURL" href="https://therosyshell.co.nz">https://therosyshell.co.nz</a>
+                            <p class="text-xl">This is the main website for The Rosy Shell.</p>
+                        </div>
+                        <div class="p-5 bg-gray-400 worksItem rounded-lg">
+                            <h3 class="text-2xl">Matt Blogs</h3>
+                            <a class="text-lg worksURL" href="https://matthewmartin.xyz">https://matthewmartin.xyz</a>
+                            <p class="text-xl">This is a blog for Matthew Martin.</p>
+                        </div>
+                        <div class="p-5 bg-gray-400 worksItem rounded-lg">
+                            <h3 class="text-2xl">Matt Plaz</h3>
+                            <a class="text-lg worksURL"
+                                href="https://yt.matthewmartin.xyz">https://yt.matthewmartin.xyz</a>
+                            <p class="text-xl">This is a blog for the Matt Plaz YouTube Channel.</p>
+                        </div>
+                    </div>
+                    <div class="hidden mb-4 grid overflow-x-scroll mx-auto gap-5 grid-rows-1 grid-flow-col worksDisplay py-2"
+                        id="worksCDisplay">
+                        <div class="p-5 bg-gray-400 worksItem rounded-lg">
+                            <h3 class="text-2xl">Theta Tools</h3>
+                            <a class="text-lg worksURL" href="https://thetatools.xyz">https://thetatools.xyz</a>
+                            <p class="text-xl">Theta Tools are a set of HTML Based, Tailwind CSS Designed, pre-built
+                                components and assets that can be used in any project.</p>
+                        </div>
+                    </div>
+                    <p class="text-xl">This is the gallery of all my (programming based) projects over the years. You
+                        can
+                        use the tabs at the top to select which category you wish to view.</p>
+                </div>
+            </section>
+            <section class="w-full h-screen border-b-2 py-4 flex justify-center items-center" id="contact">
+                <div class="bg-white rounded-lg m-2 w-2/3">
+                    <form action="https://formsubmit.co/themichael77@outlook.com" method="POST"
+                        class="grid grid-cols-2 gap-4 text-left">
+                        <div>
+                            <p class="text-lg">Name</p>
+                            <input name="name" type="text" placeholder="John Doe"
+                                class="p-3 border-2 rounded-lg w-full">
+                        </div>
+                        <div>
+                            <p class="text-lg">Email</p>
+                            <input name="email" type="email" placeholder="john.doe@email.com"
+                                class="p-3 border-2 rounded-lg w-full">
+                        </div>
+                        <div class=" col-span-2">
+                            <p class="text-lg">Subject</p>
+                            <input name="subject" type="text" placeholder="Message from John Doe"
+                                class="p-3 border-2 rounded-lg w-full">
+                        </div>
+                        <div class="col-span-2">
+                            <p class="text-lg">Message</p>
+                            <textarea name="message" type="text"
+                                placeholder="Hi, my name is John Doe and I love your website!"
+                                class="p-3 border-2 rounded-lg w-full resize-none h-40"></textarea>
+                        </div>
+                        <input type="hidden" name="_next" value="https://izmichael.xyz">
+                        <input type="text" name="_honey" style="display:none">
+                        <div class="col-span-2">
+                            <button type="submit" class="bg-red-300 p-3 rounded-lg px-10">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
     </div>
-    <div class="MenuImport"></div>
-    <div class="FooterImport"></div>
 </body>
