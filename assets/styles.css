@@ -21,26 +21,13 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-.worksDisplay {
-    width: 60rem;
-}
-
-.worksItem {
-    width: 20rem;
-    height: 16rem;
-}
-
 .worksURL {
     text-transform: lowercase;
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.w-70 {
-    width: 17rem;
-}
-
-.sidebarHidden {
-    width: rem;
+.attribution {
+    width: 30rem;
 }
 
 /* SocialPulse */
@@ -95,25 +82,3 @@ section {
     scroll-snap-align: center;
     height: 100vh;
 }
-
-/* Dark Mode */
-
-/* .noDark {
-    filter: invert(0) hue-rotate(0deg)
-}
-
-.darkStandard {
-    filter: invert(1) hue-rotate(180deg);
-}
-
-html {
-    transition: color 300ms;
-}
-
-html[data-theme='dark'] {
-    filter: invert(1) hue-rotate(180deg)
-}
-
-html[data-theme='dark'] img, .noDark {
-  filter: invert(1) hue-rotate(180deg)
-} */
