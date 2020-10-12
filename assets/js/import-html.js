@@ -5,7 +5,3 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('#descInsert').load("/config/description.txt");
 });
-
-$(document).ready(function () {
-    $('#worksDisplay').load("/config/works.html");
-});

@@ -1,14 +1,14 @@
 // Please modify the Capitalised Text and Booleans to easily configure your site
 
-var FirstNameIns = "YOUR FIRST NAME HERE";
-var LastNameIns = "YOUR LAST NAME HERE";
-var MainUsernameIns = "@YOUR MAIN USERNAME HERE";
-var Email = "YOUR@EMAIL.HERE"
+var FirstNameIns = "Michael";
+var LastNameIns = "Martin";
+var MainUsernameIns = "@IzMichael";
+var Email = "themichael77@outlook.com"
 
 // Social Data
-var GitHubIns = "YOUR USERNAME HERE";
-var TwitterIns = "YOUR USERNAME HERE";
-var BlogIns = "YOUR FULL URL HERE";
+var GitHubIns = "IzMichael";
+var TwitterIns = "IzMichael7";
+var BlogIns = "https://blog.izmichael.xyz";
 
 // Other Text
 var Subtitle = "And this is my website."
