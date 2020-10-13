@@ -31,7 +31,8 @@
                             <a href="#works">Works</a>
                             <a href="#contact">Contact</a>
                             <button onclick="setPanelLinks()" style="outline: none;" id="linksButton">Links</button>
-                            <button onclick="setPanelAttr()" style="outline: none;" id="attributionButton">Attribution</button>
+                            <button onclick="setPanelAttr()" style="outline: none;"
+                                id="attributionButton">Attribution</button>
                         </div>
                     </div>
                     <div class="flex flex-col justify-end flex-1" id="socialMenu">
@@ -54,7 +55,8 @@
                 <div class="flex flex-col flex-none h-full transition-all transition duration-1000 ease-in-out"
                     id="attrContent">
                     <h2 class="mx-auto text-4xl">Attribution</h2>
-                    <button class="p-3 mb-8 text-2xl" style="outline: none;" onclick="setPanelHome('attribution')">Back</button>
+                    <button class="p-3 mb-8 text-2xl" style="outline: none;"
+                        onclick="setPanelHome('attribution')">Back</button>
                     <ul class="mb-8 text-left">
                         <li>Built and Designed by <a class="text-blue-500" href="https://izmichael.xyz">IzMichael</a>
                         </li>
@@ -75,7 +77,8 @@
                 <div class="flex flex-col flex-none h-full transition-all transition duration-1000 ease-in-out"
                     id="linksContent">
                     <h2 class="mx-auto text-4xl">Links</h2>
-                    <button class="p-3 mb-4 text-2xl" style="outline: none;" onclick="setPanelHome('links')">Back</button>
+                    <button class="p-3 mb-4 text-2xl" style="outline: none;"
+                        onclick="setPanelHome('links')">Back</button>
                     <div class="flex flex-col gap-2">
                         <a href="https://works.izmichael.xyz" class="p-2 text-center bg-blue-200">
                             All My Works
@@ -94,7 +97,7 @@
                         </a>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
         <div class="flex flex-col w-full px-4 bg-white pageContent dStandard" id="pageContent">
             <section class="flex items-center justify-center w-full h-screen py-4 border-b-2" id="front">
@@ -116,7 +119,8 @@
             <section class="flex flex-col items-center justify-center py-16 border-b-2" id="works">
                 <div class="flex flex-col justify-center w-10/12 mx-auto text-left h-10/12">
                     <h2 class="mb-2 text-4xl font-stnd">Works</h2>
-                    <h4 class="mb-4 text-xl font-stnd">A full list of my works can be found <a href="/works" class="text-blue-600">Here</a></h4>
+                    <h4 class="mb-4 text-xl font-stnd">A full list of my works can be found <a href="/works"
+                            class="text-blue-600">Here</a></h4>
                     <div class="github-widget" data-user="izmichael" data-options='{"limit":6}'></div>
                 </div>
             </section>
@@ -145,8 +149,9 @@
                                 placeholder="Hi, my name is John Doe and I love your website!"
                                 class="w-full h-40 p-3 border-2 rounded-lg resize-none"></textarea>
                         </div>
-                        <input type="hidden" name="_next" value="https://izmichael.xyz">
+                        <input type="hidden" name="_next" value="https://izmichael.xyz/#contact">
                         <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_captcha" value="false">
                         <div class="col-span-2">
                             <button type="submit" class="p-3 px-10 bg-red-300 rounded-lg">Send</button>
                         </div>
