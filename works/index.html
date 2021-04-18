@@ -12,7 +12,7 @@
         <link href="/github-widget/github-widget.css" rel="stylesheet" type="text/css" />
     </head>
 
-    <body onload="onLoad()">
+    <body>
         <div class="flex">
             <div class="absolute sticky top-0 flex flex-col h-screen transition duration-1000 ease-in-out transform"
                 id="sidebarParent">
@@ -22,86 +22,32 @@
                         <div class="flex flex-col justify-start flex-1">
                         </div>
                         <div class="flex flex-col justify-center flex-1 py-4">
-                            <img src="/assets/img/pfp.png"
+                            <img id="pfp" src="/assets/img/pfp.png"
                                 class="w-40 h-40 mx-auto mb-2 border-2 border-white rounded-full">
-                            <h1 class="mx-auto text-2xl text-center" id="name"></h1>
-                            <a onclick="pulseSocial()" class="mx-auto text-xl text-center cursor-pointer select-none"
-                                id="usernameMain"></a>
+                            <h1 class="mx-auto text-2xl text-center" id="name">Michael Martin</h1>
+                            <p class="mx-auto text-xl text-center"
+                                id="usernameMain">@IzMichael</p>
                             <div class="w-16 h-px mx-auto my-2 bg-gray-500 dStandard"></div>
                             <div class="flex flex-col gap-2 mx-auto text-lg text-center" id="sidebarMenu">
                                 <a href="/#">Home</a>
-                                <a href="/#about">About Me</a>
-                                <a href="/#works">Works</a>
-                                <a href="/#contact">Contact</a>
-                                <a href="https://dev.izmichael.xyz">Dev Blog & Portfolio</a>
-                                <button onclick="setPanelLinks()" style="outline: none;" id="linksButton">Links</button>
-                                <button onclick="setPanelAttr()" style="outline: none;"
-                                    id="attributionButton">Attribution</button>
+                                <a href="#about">About Me</a>
+                                <a href="#works">Works</a>
+                                <a href="#contact">Contact</a>
+                                <a href="https://dev.izmichael.xyz">Developer Portfolio</a>
                             </div>
                         </div>
                         <div class="flex flex-col justify-end flex-1" id="socialMenu">
                             <div class="flex flex-row justify-center gap-8 p-2" id="socialMenuI">
-                                <a href="https://github.com/izmichael" id="github" target="_blank"><img
+                                <a id="github" target="_blank" href="https://github.com/IzMichael"><img
                                         src="https://resources.izmichael.xyz/assets/img/icons/github.svg"
                                         class="w-6 h-6"></a>
-                                <a href="https://twitter.com/izmichael7" id="twitter" target="_blank"><img
+                                <a id="twitter" target="_blank" href="https://twitter.com/IzMichael7"><img
                                         src="https://resources.izmichael.xyz/assets/img/icons/twitter.svg"
                                         class="w-6 h-6"></a>
-                                <a href="https://blog.izmichael.xyz" id="blog" target="_blank"><img
+                                <a id="blog" target="_blank" href="https://blog.izmichael.xyz"><img
                                         src="https://resources.izmichael.xyz/assets/img/icons/pencil.svg"
                                         class="w-6 h-6"></a>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-no-wrap hidden h-screen p-4 transition-all transition duration-1000 ease-in-out transform bg-gray-100 border-l border-r border-gray-400 dStandard"
-                    id="attributionPanel">
-                    <div class="flex flex-col flex-none h-full transition-all transition duration-1000 ease-in-out"
-                        id="attrContent">
-                        <h2 class="mx-auto text-4xl">Attribution</h2>
-                        <button class="p-3 mb-8 text-2xl" style="outline: none;"
-                            onclick="setPanelHome('attribution')">Back</button>
-                        <ul class="mb-8 text-left">
-                            <li>Built and Designed by <a class="text-blue-500"
-                                    href="https://izmichael.xyz">IzMichael</a>
-                            </li>
-                            <li>Built using <a class="text-blue-500" href="https://tailwindcss.com">Tailwind CSS</a>
-                            </li>
-                            <li>Icons by <a class="text-blue-500" href="https://ionicons.com">Ionicons</a></li>
-                            <li>Licensed under the <a class="text-blue-500" href="http://www.apache.org/licenses">Apache
-                                    License 2.0</a></li>
-                        </ul>
-                        <ul class="mb-8 text-left">
-                            <li>Built using <a class="text-blue-500"
-                                    href="https://github.com/IzMichael/Personal-Site">IzMichael's Personal-Site
-                                    Template</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="flex-no-wrap hidden h-screen p-4 transition-all transition duration-1000 ease-in-out transform bg-gray-100 border-l border-r border-gray-400 dStandard"
-                    id="linksPanel">
-                    <div class="flex flex-col flex-none h-full transition-all transition duration-1000 ease-in-out"
-                        id="linksContent">
-                        <h2 class="mx-auto text-4xl">Links</h2>
-                        <button class="p-3 mb-4 text-2xl" style="outline: none;"
-                            onclick="setPanelHome('links')">Back</button>
-                        <div class="flex flex-col gap-2">
-                            <a href="https://izmichael.xyz/works" class="p-2 text-center bg-blue-200">
-                                All My Works
-                            </a>
-                            <a href="https://blog.izmichael.xyz" class="p-2 text-center bg-blue-200">
-                                My Blog
-                            </a>
-                            <a href="https://download.izmichael.xyz" class="p-2 text-center bg-blue-200">
-                                My Downloadables
-                            </a>
-                            <a href="https://dev.izmichael.xyz" class="p-2 text-center bg-blue-200">
-                                Hire Me
-                            </a>
-                            <a href="https://thetatools.xyz" class="p-2 text-center bg-blue-200">
-                                Theta Tools
-                            </a>
                         </div>
                     </div>
                 </div>

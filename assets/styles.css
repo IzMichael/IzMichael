@@ -2,14 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* Other */
-body {
-    padding: 0;
-    margin: 0;
-}
-
-html {
-    scroll-behavior: smooth;
+* {
+    outline: 0;
 }
 
 .font-stnd {
@@ -28,15 +22,15 @@ html {
 /* SocialPulse */
 
 #socialMenuI {
-    border: 4px solid;
+    border: 2px solid;
     border-color: rgba(0, 0, 0, 0);
 }
 
 .pulse {
     animation: fading 1s;
-    animation-iteration-count: 4;
+    animation-iteration-count: 2;
     -webkit-animation: fading 1s;
-    -webkit-animation-iteration-count: 4;
+    -webkit-animation-iteration-count: 2;
 }
 
 @keyframes fading {
@@ -76,4 +70,8 @@ html {
 section {
     scroll-snap-align: center;
     height: 100vh;
+}
+
+.incorrect {
+    border-color: red;
 }
