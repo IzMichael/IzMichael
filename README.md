@@ -6,4 +6,4 @@ Hello, my name is Michael. I'm a professional web developer based in New Zealand
 - All of my school-related projects are [@IzMichael-School](https://github.com/IzMichael-School)
 - And I run [@Theta-Tools](https://github.com/Theta-Tools)
 
-I'm skilled in HTML, CSS, and JS, with certifications in Adobe Photoshop 2020 and Adobe Premier Pro 2020.
+I'm skilled in HTML, CSS, and JS, with certifications in Adobe Photoshop 2020 and Adobe Premiere Pro 2020.
