@@ -15,7 +15,7 @@
         { 'href': 'https://twitch.tv/IzMichael7',                              'label': 'Twitch',       'handle': 'IzMichael7',            'icon': '/assets/img/twitch.svg'    },
         { 'href': 'https://www.youtube.com/channel/UCU7AHWO2LFoJk2yhThAAH4g/', 'label': 'YouTube',      'handle': 'IzMichael',             'icon': '/assets/img/youtube.svg'   },
         { 'href': 'https://blog.izmichael.com',                                'label': 'Blog',         'handle': 'blog.izmichael.com',    'icon': '/assets/img/blog.svg',     },
-        { 'href': 'https://ko-fi.com/izmichael',                               'label': 'Ko-Fi',        'handle': 'IzMichael',             'icon': '/assets/img/kofi.svg'
+        { 'href': 'https://ko-fi.com/izmichael',                               'label': 'Ko-Fi',        'handle': 'IzMichael',             'icon': '/assets/img/coin.svg'
     ], repos = [];
 
     onMount(async () => {
