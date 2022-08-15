@@ -12,9 +12,10 @@
         { 'href': 'https://github.com/IzMichael',                              'label': 'GitHub',       'handle': '@IzMichael',            'icon': '/assets/img/github.svg'    },
         { 'href': 'https://twitter.com/IzMichael7',                            'label': 'Twitter',      'handle': '@IzMichael7',           'icon': '/assets/img/twitter.svg'   },
         { 'href': 'https://instagram.com/IzMichael_',                          'label': 'Instagram',    'handle': '@IzMichael_',           'icon': '/assets/img/instagram.svg' },
-        { 'href': 'https://twitch.tv/IzMichael7',                              'label': 'Twitch',       'handle': '@IzMichael7',           'icon': '/assets/img/twitch.svg'    },
-        { 'href': 'https://www.youtube.com/channel/UCU7AHWO2LFoJk2yhThAAH4g/', 'label': 'YouTube',      'handle': '@IzMichael',            'icon': '/assets/img/youtube.svg'   },
-        { 'href': 'https://blog.izmichael.com',                                'label': 'Blog',         'handle': 'blog.izmichael.com',    'icon': '/assets/img/blog.svg'      },
+        { 'href': 'https://twitch.tv/IzMichael7',                              'label': 'Twitch',       'handle': 'IzMichael7',            'icon': '/assets/img/twitch.svg'    },
+        { 'href': 'https://www.youtube.com/channel/UCU7AHWO2LFoJk2yhThAAH4g/', 'label': 'YouTube',      'handle': 'IzMichael',             'icon': '/assets/img/youtube.svg'   },
+        { 'href': 'https://blog.izmichael.com',                                'label': 'Blog',         'handle': 'blog.izmichael.com',    'icon': '/assets/img/blog.svg',     },
+        { 'href': 'https://ko-fi.com/izmichael',                               'label': 'Ko-Fi',        'handle': 'IzMichael',             'icon': '/assets/img/kofi.png'
     ], repos = [];
 
     onMount(async () => {
@@ -45,7 +46,7 @@
         <section id="about-me" class="flex flex-col items-center justify-center py-4 border-b-2">
             <div class="w-2/3">
                 <h2 class="mb-4 text-4xl font-stnd">About</h2>
-                <p class="text-2xl">Hello, my name is Michael. I'm a <a href="https://lightondev.xyz" class="text-blue-600 underline">professional web developer</a> based in New Zealand. I'm originally from the UK, but moved here in 2012. I enjoy all things tech, and I like reading, Minecraft, and trains. I'm interested in cities and city infrastructure such as public transport and law.</p>
+                <p class="text-2xl">Hello, my name is Michael. I'm a <a href="https://lightondev.com" class="text-blue-600 underline">professional web developer</a> based in New Zealand. I'm originally from the UK, but moved here in 2012. I enjoy all things tech, and I like reading, Minecraft, and trains. I'm interested in cities and city infrastructure such as public transport and law.</p>
             </div>
         </section>
 
