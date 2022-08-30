@@ -8,4 +8,5 @@ Hello, my name is Michael. I'm a professional web developer based in New Zealand
 - I'm skilled in HTML, CSS, and JS, with certifications in Adobe Photoshop 2020 and Adobe Premiere Pro 2020.
 
 If you like my stuff and want to support me, you can do so on Ko-Fi ↓
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/izmichael)
