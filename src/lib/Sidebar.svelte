@@ -19,9 +19,9 @@
             <a target="_blank" href="https://twitter.com/IzMichael7">
                 <img src="./assets/img/twitter.svg" class="w-6 h-6" alt="Twitter Link">
             </a>
-            <a target="_blank" href="https://blog.izmichael.com">
+            <!-- <a target="_blank" href="https://blog.izmichael.com">
                 <img src="./assets/img/blog.svg" class="w-6 h-6" alt="Blog Link">
-            </a>
+            </a> -->
         </div>
     </div>
 </div>
