@@ -24,7 +24,7 @@
     <a class="mb-10 flex flex-col justify-center items-center text-3xl max-w-[50%] text-center flex-1 hover:underline" href="https://github.com/IzMichael">Check out my GitHub for more!</a>
     <div class="flex flex-row justify-start items-center h-3/4 w-full max-w-full overflow-x-auto p-2">
         {#each shuffle(projects) as item, i}
-            <a class="flex flex-col justify-start items-center w-[25vw] h-full p-4 rounded-xl ring-2 shrink-0 {i != 0 ? 'lg:ml-10 ml-5' : ''}" style="--tw-ring-color: {item.color};" href={item.href}>
+            <a class="flex flex-col justify-start items-center max-w-[25vw] h-full p-4 min-w-96 rounded-xl ring-2 shrink-0 {i != 0 ? 'lg:ml-10 ml-5' : ''}" style="--tw-ring-color: {item.color};" href={item.href}>
                 <img src={item.image} class="w-full shadow-lg rounded-xl mb-5" alt="{item.label} Thumbnail" />
                 <h6 class="lg:text-2xl text-lg font-bold w-full text-center">{item.title}</h6>
                 <p class="lg:text-lg text-base mt-1 w-full text-center">{item.description}</p>
