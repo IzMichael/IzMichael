@@ -1,8 +1,9 @@
 <script>
     let links = [
-        { 'href': 'https://discordapp.com/users/349062232652382220',           'label': 'Discord',      'handle': '@IzMichael#6437',       'icon': '/assets/img/discord.svg'   },
-        { 'href': 'https://github.com/IzMichael',                              'label': 'GitHub',       'handle': '@IzMichael',            'icon': '/assets/img/github.svg'    },
-        { 'href': 'https://twitter.com/IzMichael7',                            'label': 'Twitter',      'handle': '@IzMichael7',           'icon': '/assets/img/twitter.svg'   },
+        { 'href': 'https://discordapp.com/users/349062232652382220',           'label': 'Discord',      'handle': '@IzMichael#6437',       'icon': '/assets/img/discord.svg'    },
+        { 'href': 'https://github.com/IzMichael',                              'label': 'GitHub',       'handle': '@IzMichael',            'icon': '/assets/img/github.svg'     },
+        { 'href': 'https://twitter.com/IzMichael7',                            'label': 'Twitter',      'handle': '@IzMichael7',           'icon': '/assets/img/twitter.svg'    },
+        { 'href': 'https://mas.to/@IzMichael',                                 'label': 'Mastodon',      'handle': '@IzMichael',           'icon': '/assets/img/mastodon.svg'   },
         // { 'href': 'https://instagram.com/IzMichael_',                          'label': 'Instagram',    'handle': '@IzMichael_',           'icon': '/assets/img/instagram.svg' },
         // { 'href': 'https://twitch.tv/IzMichael7',                              'label': 'Twitch',       'handle': 'IzMichael7',            'icon': '/assets/img/twitch.svg'    },
         { 'href': 'https://www.youtube.com/channel/UCU7AHWO2LFoJk2yhThAAH4g/', 'label': 'YouTube',      'handle': 'IzMichael',             'icon': '/assets/img/youtube.svg'   },
