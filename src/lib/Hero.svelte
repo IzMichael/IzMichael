@@ -48,7 +48,7 @@
         {#each links as link}
             <a href={link.href} class="hover:border-blue-600 group flex flex-row items-center transition-all duration-1000 ease-in-out border-2 border-gray-300 rounded-full cursor-pointer select-none">
                 <img src={link.icon} class="w-9 h-9 group-hover:bg-blue-200 p-1 transition-all duration-1000 ease-in-out rounded-full" alt={link.label}>
-                <p class="group-hover:pl-2 group-hover:pr-1 pt-1 group-hover:w-48 w-0 h-full overflow-hidden font-mono transition-all duration-1000 ease-in-out" style="max-width: {0.70 * link.handle.length}rem;">{link.handle}</p>
+                <p class="group-hover:pl-2 group-hover:pr-1 group-hover:w-48 w-0 h-full pt-1 overflow-hidden font-mono transition-all duration-1000 ease-in-out" style="max-width: {0.70 * link.handle.length}rem;">{link.handle}</p>
             </a>
         {/each}
     </div>
@@ -73,7 +73,7 @@
     }
 
     #pfp-container:hover #pfp {
-        background-image: url('/assets/img/IzMichael.png');
+        background-image: url('/assets/img/IzMichaelC.png');
         transform: rotateZ(360deg);
     }
 </style>
