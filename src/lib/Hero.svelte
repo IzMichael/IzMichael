@@ -1,7 +1,6 @@
 <script>
     import { onMount } from "svelte";
 
-
     let links = [
         { 'href': 'https://discordapp.com/users/349062232652382220',           'label': 'Discord',      'handle': '@IzMichael#6437',       'icon': '/assets/img/discord.svg'    },
         { 'href': 'https://github.com/IzMichael',                              'label': 'GitHub',       'handle': '@IzMichael',            'icon': '/assets/img/github.svg'     },
@@ -59,7 +58,8 @@
 <link rel="preload" href="/assets/img/IzMichaelC.png" as="image">
 
 <div class="flex flex-col items-center justify-center w-full h-screen">
-    <div id="pfp-container" class="iz w-40 h-40 mb-3 border-2 border-white rounded-full cursor-pointer" on:mouseover={addIz} on:focus={addIz} on:mouseout={remIz} on:blur={remIz}>
+    <!-- <div id="pfp-container" class="iz w-40 h-40 mb-3 border-2 border-white rounded-full cursor-pointer" on:mouseover={addIz} on:focus={addIz} on:mouseout={remIz} on:blur={remIz}> -->
+    <div id="pfp-container" class="iz w-40 h-40 mb-3 border-2 border-white rounded-full cursor-pointer">
         <div id="pfp"></div>
     </div>
 
