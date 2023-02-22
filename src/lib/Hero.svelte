@@ -19,7 +19,7 @@
         nameShow = 'Iz';
 
         namePre = '';
-        await sleep(0.25);
+        // await sleep(0.01);
         namePre = 'I';
         await sleep(0.5);
         namePre = 'Iz';
@@ -29,7 +29,7 @@
         nameShow = 'MM';
 
         namePre = 'Iz';
-        await sleep(0.25);
+        // await sleep(0.01);
         namePre = 'I';
         await sleep(0.5);
         namePre = '';
