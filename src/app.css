@@ -3,18 +3,9 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Jost';
-
-    transition-property: all;
-    transition-duration: 300ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
 }
 
-.bg-gradient {
-    --bg-gradient-angle: 180deg;
-    background: linear-gradient(var(--bg-gradient-angle), #ffffff, #3b82f6);
-}
-
-.bg-flip {
-    --bg-gradient-angle: 0deg;
+body {
+    overscroll-behavior: none;
 }
