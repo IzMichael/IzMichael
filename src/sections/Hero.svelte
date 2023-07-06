@@ -57,6 +57,8 @@
             >
             <a href="https://mas.to/@IzMichael" class="flex-1 px-5 hover:font-semibold hover:text-[#6265ff]">Mastodon</a
             >
+            <a href="https://threads.net/izmichael7" class="flex-1 px-5 hover:font-semibold hover:text-[#8a3ab9]">Threads</a
+            >
             <a href="https://github.com/IzMichael" class="flex-1 px-5 hover:font-semibold hover:text-[#433ea8]"
                 >GitHub</a
             >
