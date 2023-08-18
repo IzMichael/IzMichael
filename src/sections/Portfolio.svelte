@@ -34,7 +34,7 @@
         },
         {
             name: 'The Rosy Shell',
-            link: 'https://therosyshell.com/',
+            link: 'https://therosyshell.co.nz/',
             description:
                 'I created a powerful E-Commerce website for a client, custom built using PocketBase and Svelte.',
             created: 2020,
