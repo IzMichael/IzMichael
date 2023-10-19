@@ -1,15 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    darkMode: 'class',
     content: ['./src/**/*.{html,js,svelte,ts}'],
     theme: {
         extend: {
             height: {
-                screen: '100svh'
+                screen: '100dvh'
             },
+            colors: {
+                teal: '#00cccc'
+            }
         },
         fontFamily: {
-            sans: ['Rubik']
+            sans: ['Lexend', 'Rubik', 'sans-serif'],
+            mono: ['Spline Sans Mono', 'monospace'],
+
+            lexend: ['Lexend'],
+            splinesans: ['Spline Sans Mono'],
+            rubik: ['Rubik'],
         },
     },
     plugins: [],

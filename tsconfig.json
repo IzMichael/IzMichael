@@ -7,17 +7,12 @@
         "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
         "skipLibCheck": true,
-        // "sourceMap": true,
         "strict": true,
         "paths": {
-            "$lib": ["./src/lib"],
-            "$lib/*": ["./src/lib/*"],
-            "$sections": ["./src/sections"],
-            "$sections/*": ["./src/sections/*"]
+            "$lib": ["src/lib"],
+            "$lib/*": ["src/lib/*"]
         }
     },
-    // "include": ["/src/**/*"],
-    // "exclude": ["/node_modules"]
     "include": [
         "./.svelte-kit/ambient.d.ts",
         "./.svelte-kit/types/**/$types.d.ts",
@@ -37,4 +32,3 @@
     // If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes
     // from the referenced tsconfig.json - TypeScript does not merge them in
 }
-
