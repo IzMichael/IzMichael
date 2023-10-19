@@ -76,8 +76,7 @@
                 <h3 class="font-bold">{project.name}</h3>
                 <p class="mb-2 mt-1 text-sm">{project.description}</p>
                 <p class="text-sm text-gray-500">
-                    c. {project.created}
-                    {project.deprecated ? ', d. ' + project.deprecated : ''} - {project.status}
+                    c. {project.created}{project.deprecated ? ', d. ' + project.deprecated : ''} - {project.status}
                 </p>
             </a>
         {/each}
@@ -88,8 +87,7 @@
                 <h3 class="font-bold">{project.name}</h3>
                 <p class="mb-2 mt-1 text-sm">{project.description}</p>
                 <p class="text-sm text-gray-500">
-                    c. {project.created}
-                    {project.defunct ? ', d. ' + project.defunct : ''} - {project.status}
+                    c. {project.created}{project.deprecated ? ', d. ' + project.deprecated : ''} - {project.status}
                 </p>
             </a>
         {/each}
