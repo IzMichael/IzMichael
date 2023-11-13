@@ -57,7 +57,7 @@
             <p>
                 &copy; IzMichael {new Date().getFullYear()} - Thanks for visiting!
                 <br />
-                <span class="text-sm text-gray-600">IzMichael's Website - Updated 19th October 2023</span>
+                <span class="text-sm text-gray-600">IzMichael's Website - Updated 13th November 2023</span>
             </p>
         </Container>
     </div>
