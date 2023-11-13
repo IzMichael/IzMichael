@@ -70,11 +70,16 @@
 <div class="grid w-full grid-cols-4 gap-5 lg:w-2/3">
     {#each links as link}
         <a
-            class="aspect-square w-full rounded-lg p-4 text-center shadow-lg transition-all duration-300 ease-in-out hover:brightness-75"
+            class="group flex aspect-square w-full flex-col items-center justify-center overflow-hidden rounded-lg px-4 text-center shadow-lg transition-all duration-300 ease-in-out hover:brightness-90"
             style="background-color: {link.color};"
             href={link.href}
         >
-            <img src="/assets/icons/{link.icon}" alt="{link.label} Icon" class="h-full w-full invert" />
+            <img src="/assets/icons/{link.icon}" alt="{link.label} Icon" class="aspect-square h-full invert" />
+            <p
+                class="h-0 overflow-hidden text-sm font-bold text-white transition-all duration-300 ease-in-out group-hover:h-8"
+            >
+                {link.label}
+            </p>
         </a>
     {/each}
 </div>
