@@ -36,8 +36,7 @@
             <br />
             <p>
                 I'm a self-taught Web Developer, specialising in SvelteKit. I'm interested in all things tech, I also
-                take interest in trains, aviation, lingustics, and I'm an avid player of Minecraft and follower of
-                Eurovision.
+                take interest in trains, aviation, lingustics, and I'm an avid player of Minecraft.
             </p>
         </Container>
 
