@@ -32,7 +32,7 @@
         class="mt-5 flex w-full flex-col items-center justify-start gap-5 overflow-x-visible px-7 pb-16 lg:mt-0 lg:h-full lg:w-3/5 lg:overflow-y-auto lg:pl-5 lg:pr-16"
     >
         <Container heading="About Me">
-            <p>I'm originally from the UK, and I hold citizenships in the United Kingdom, Ireland, and New Zealand.</p>
+            <p>I'm originally from the UK, but now living in NZ, and I'm a citizen of the United Kingdom, Ireland, and New Zealand.</p>
             <br />
             <p>
                 I'm a self-taught Web Developer, specialising in SvelteKit. I'm interested in all things tech, I also
@@ -57,7 +57,7 @@
             <p>
                 &copy; IzMichael {new Date().getFullYear()} - Thanks for visiting!
                 <br />
-                <span class="text-sm text-gray-600">IzMichael's Website - Updated 13th November 2023</span>
+                <span class="text-sm text-gray-600">IzMichael's Website - Updated 15th December 2023</span>
             </p>
         </Container>
     </div>
