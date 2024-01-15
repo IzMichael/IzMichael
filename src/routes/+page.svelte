@@ -31,8 +31,11 @@
     <div
         class="mt-5 flex w-full flex-col items-center justify-start gap-5 overflow-x-visible px-7 pb-16 lg:mt-0 lg:h-full lg:w-3/5 lg:overflow-y-auto lg:pl-5 lg:pr-16"
     >
-        <Container heading="About Me">
-            <p>I'm originally from the UK, but now living in NZ, and I'm a citizen of the United Kingdom, Ireland, and New Zealand.</p>
+        <Container heading="About Me" id="about">
+            <p>
+                I'm originally from the UK, but now living in NZ, and I'm a citizen of the United Kingdom, Ireland, and
+                New Zealand.
+            </p>
             <br />
             <p>
                 I'm a self-taught Web Developer, specialising in SvelteKit. I'm interested in all things tech, I also
@@ -40,24 +43,22 @@
             </p>
         </Container>
 
-        <Container heading="Projects">
+        <Container heading="Projects" id="projects">
             <p>I've made some brilliant things in my time, why not take a look?</p>
         </Container>
-
         <Projects />
 
-        <Container heading="Portfolio">
+        <Container heading="Portfolio" id="portfolio">
             <p>I also do paid work from time to time.</p>
             <a href="mailto:chat@izmichael.com" class="text-teal hover:underline">Interested? Let's chat.</a>
         </Container>
-
         <Portfolio />
 
         <Container heading="The End!">
             <p>
                 &copy; IzMichael {new Date().getFullYear()} - Thanks for visiting!
                 <br />
-                <span class="text-sm text-gray-600">IzMichael's Website - Updated 15th December 2023</span>
+                <span class="text-sm text-gray-600">IzMichael's Website - Updated 15th January 2024</span>
             </p>
         </Container>
     </div>

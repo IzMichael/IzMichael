@@ -4,10 +4,11 @@
     export { xclass as class };
     let xclass = '';
 
-    export let heading = '';
+    export let heading = '',
+        id = '';
 </script>
 
-<div class="mt-5 flex w-full flex-col overflow-visible">
+<div class="mt-5 flex w-full flex-col overflow-visible" {id}>
     <div class="flex w-full flex-row items-end justify-center">
         <div class="h-3 w-3 bg-white">
             <span class="block h-full w-full rounded-br-2xl bg-slate-200 p-1" />
