@@ -4,9 +4,6 @@
     import Projects from '$lib/Projects.svelte';
     import Portfolio from '$lib/Portfolio.svelte';
     import Links from '$lib/Links.svelte';
-
-    let emailStr =
-        '\u006d\u0069\u0063\u0068\u0061\u0065\u006c\u0040\u0069\u007a\u006d\u0069\u0063\u0068\u0061\u0065\u006c\u002e\u0063\u006f\u006d';
 </script>
 
 <div
@@ -17,11 +14,8 @@
             <img src="/faviconbg.png" alt="IzMichael's PFP" class="mb-3 h-40 w-40 rounded-full bg-teal p-2" />
             <h1 class="font-rubik text-4xl font-bold">IzMichael</h1>
             <h2 class="mt-2 font-rubik text-2xl font-semibold">Web Dev & Student</h2>
-            <a
-                class="font-semibold hover:text-[#00cccc] hover:underline"
-                href="javascript:location='mailto:{emailStr}';void 0"
-            >
-                {emailStr}
+            <a class="font-semibold hover:text-[#00cccc] hover:underline" href="mailto:michael@izmichael.com">
+                michael@izmichael.com
             </a>
         </div>
 
