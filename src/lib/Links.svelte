@@ -14,13 +14,13 @@
             color: '#6265ff',
             icon: 'mastodon.svg',
         },
-        {
-            label: 'Threads',
-            username: '@IzMichael7',
-            href: 'https://threads.net/IzMichael7',
-            color: '#8a3ab9',
-            icon: 'threads.svg',
-        },
+        // {
+        //     label: 'Threads',
+        //     username: '@IzMichael7',
+        //     href: 'https://threads.net/IzMichael7',
+        //     color: '#8a3ab9',
+        //     icon: 'threads.svg',
+        // },
         {
             label: 'GitHub',
             username: '@IzMichael',
@@ -37,25 +37,25 @@
         },
         {
             label: 'Ko-Fi',
-            username: '@IzMichael',
+            username: 'IzMichael',
             href: 'https://ko-fi.com/IzMichael',
-            color: '#00b9fe',
+            color: '#ff5d5a',
             icon: 'kofi.svg',
         },
         {
-            label: 'NameMC',
-            username: '@IzMichael',
+            label: 'Minecraft',
+            username: 'IzMichael',
             href: 'https://namemc.com/profile/IzMichael.1',
             color: '#81b949',
             icon: 'minecraft.svg',
         },
-        {
-            label: 'Pinterest',
-            username: '@IzMichael7',
-            href: 'https://www.pinterest.nz/IzMichael7/',
-            color: '#e60527',
-            icon: 'pinterest.svg',
-        },
+        // {
+        //     label: 'Pinterest',
+        //     username: '@IzMichael7',
+        //     href: 'https://www.pinterest.nz/IzMichael7/',
+        //     color: '#e60527',
+        //     icon: 'pinterest.svg',
+        // },
     ];
 
     interface Link {
@@ -67,19 +67,22 @@
     }
 </script>
 
-<div class="grid w-full grid-cols-4 gap-5 lg:w-2/3">
+<div class="grid w-full grid-cols-2 gap-5 lg:w-2/3">
     {#each links as link}
         <a
-            class="group flex aspect-square w-full flex-col items-center justify-center overflow-hidden rounded-lg px-4 text-center shadow-lg transition-all duration-300 ease-in-out hover:brightness-90"
+            class="group flex h-16 w-full flex-row items-center justify-center overflow-hidden rounded-lg px-4 py-2 text-center shadow-lg transition-all duration-300 ease-in-out hover:brightness-90"
             style="background-color: {link.color};"
             href={link.href}
         >
             <img src="/assets/icons/{link.icon}" alt="{link.label} Icon" class="aspect-square h-full invert" />
-            <p
-                class="h-0 overflow-hidden text-sm font-bold text-white transition-all duration-300 ease-in-out group-hover:h-8"
-            >
-                {link.label}
-            </p>
+            <div class="flex h-full flex-1 flex-col items-center justify-center">
+                <p class="w-full text-right text-sm text-white">
+                    {link.label}
+                </p>
+                <p class="w-full text-right text-sm font-bold text-white">
+                    {link.username}
+                </p>
+            </div>
         </a>
     {/each}
 </div>
