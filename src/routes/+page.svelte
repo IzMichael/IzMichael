@@ -23,7 +23,7 @@
     </div>
 
     <div
-        class="mt-5 flex w-full flex-col items-center justify-start gap-5 overflow-x-visible px-7 pb-16 lg:mt-0 lg:h-full lg:w-3/5 lg:overflow-y-auto lg:pl-5 lg:pr-16"
+        class="mt-5 flex w-full flex-col items-center justify-start gap-5 overflow-x-visible px-7 pb-16 lg:h-full lg:w-3/5 lg:overflow-y-auto lg:pl-5 lg:pr-16"
     >
         <Container heading="About Me" id="about">
             <p>
