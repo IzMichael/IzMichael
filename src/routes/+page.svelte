@@ -7,9 +7,11 @@
 </script>
 
 <div
-    class="tile-triangle flex h-screen w-full flex-col items-center justify-start overflow-x-hidden bg-slate-200 lg:flex-row lg:justify-center"
+    class="tile-triangle flex h-screen w-full flex-col items-start justify-start overflow-x-hidden bg-slate-200 lg:flex-row lg:justify-center"
 >
-    <div class="mt-5 flex w-full flex-col items-center justify-start gap-5 px-7 lg:ml-5 lg:mt-0 lg:w-2/5 lg:px-0">
+    <div
+        class="mt-5 flex w-full flex-col items-center justify-start gap-5 px-7 lg:sticky lg:bottom-0 lg:left-0 lg:top-0 lg:ml-5 lg:mt-0 lg:h-full lg:w-2/5 lg:justify-center lg:px-0"
+    >
         <div class="flex w-full flex-col items-center justify-center rounded-lg bg-white py-10 shadow-lg lg:w-2/3">
             <img src="/faviconbg.png" alt="IzMichael's PFP" class="mb-3 h-40 w-40 rounded-full bg-teal p-2" />
             <h1 class="font-rubik text-4xl font-bold">IzMichael</h1>
@@ -23,7 +25,7 @@
     </div>
 
     <div
-        class="mt-5 flex w-full flex-col items-center justify-start gap-5 overflow-x-visible px-7 pb-16 lg:h-full lg:w-3/5 lg:overflow-y-auto lg:pl-5 lg:pr-16"
+        class="mt-5 flex w-full shrink-0 flex-col items-center justify-center gap-5 overflow-x-visible px-7 pb-16 lg:mt-0 lg:h-fit lg:min-h-full lg:w-3/5 lg:pl-5 lg:pr-16 lg:pt-5"
     >
         <Container heading="About Me" id="about">
             <p>
