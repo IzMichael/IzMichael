@@ -7,10 +7,10 @@
 </script>
 
 <div
-    class="tile-triangle flex h-screen w-full flex-col items-start justify-start overflow-x-hidden bg-slate-200 lg:flex-row lg:justify-center"
+    class="tile-triangle flex h-screen w-full flex-col items-start justify-start overflow-x-hidden bg-[#D8E0EB] lg:flex-row lg:justify-center"
 >
     <div
-        class="mt-5 flex w-full flex-col items-center justify-start gap-5 px-7 lg:sticky lg:bottom-0 lg:left-0 lg:top-0 lg:ml-5 lg:mt-0 lg:h-full lg:w-2/5 lg:justify-center lg:px-0"
+        class="mt-5 flex w-full flex-col items-center justify-start gap-5 px-7 lg:sticky lg:left-0 lg:top-0 lg:ml-5 lg:mt-0 lg:h-full lg:w-2/5 lg:justify-center lg:px-0"
     >
         <div class="flex w-full flex-col items-center justify-center rounded-lg bg-white py-10 shadow-lg lg:w-2/3">
             <img src="/faviconbg.png" alt="IzMichael's PFP" class="mb-3 h-40 w-40 rounded-full bg-teal p-2" />
@@ -54,7 +54,7 @@
             <p>
                 &copy; IzMichael {new Date().getFullYear()} - Thanks for visiting!
                 <br />
-                <span class="text-sm text-gray-600">IzMichael's Website - Updated 2nd April 2024</span>
+                <span class="text-sm text-gray-600">IzMichael's Website - Updated 30th April 2024</span>
             </p>
         </Container>
     </div>

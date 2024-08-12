@@ -42,13 +42,13 @@
             color: '#ff5d5a',
             icon: 'kofi.svg',
         },
-        {
-            label: 'Minecraft',
-            username: 'IzMichael',
-            href: 'https://namemc.com/profile/IzMichael.1',
-            color: '#81b949',
-            icon: 'minecraft.svg',
-        },
+        // {
+        //     label: 'Minecraft',
+        //     username: 'IzMichael',
+        //     href: 'https://namemc.com/profile/IzMichael.1',
+        //     color: '#81b949',
+        //     icon: 'minecraft.svg',
+        // },
         // {
         //     label: 'Pinterest',
         //     username: '@IzMichael7',
@@ -70,7 +70,7 @@
 <div class="grid w-full grid-cols-2 gap-5 lg:w-2/3">
     {#each links as link}
         <a
-            class="group flex h-16 w-full flex-row items-center justify-center overflow-hidden rounded-lg px-4 py-2 text-center shadow-lg transition-all duration-300 ease-in-out hover:brightness-90"
+            class="group flex h-12 w-full flex-row items-center justify-center overflow-hidden rounded-lg px-4 py-2 text-center shadow-lg transition-all duration-300 ease-in-out hover:brightness-90 lg:h-16"
             style="background-color: {link.color};"
             href={link.href}
         >

@@ -4,10 +4,18 @@
             name: 'The Rosy Shell',
             link: 'https://therosyshell.co.nz/',
             description:
-                'I created a powerful E-Commerce website for a client, custom built using PocketBase and Svelte.',
+                'I created a simple E-Commerce website for a client, custom built using PocketBase and Svelte.',
             created: 2022,
             status: 'Actively Maintained',
             image: 'the-rosy-shell.png',
+        },
+        {
+            name: 'Church Contacts Portal',
+            description:
+                'I built a contacts database and mass SMS client for my local church, using a PocketBase database and Svelte.',
+            created: 2022,
+            status: 'Actively Maintained',
+            image: 'occ-portal.png',
         },
     ];
 
