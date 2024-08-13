@@ -16,7 +16,7 @@
         out:fade={{ duration: 300, easing: cubicInOut, delay: 200 }}
     >
         <div
-            class="relative flex h-full w-1/3 flex-col items-start justify-start overflow-y-auto rounded-lg bg-white p-5 shadow-lg"
+            class="relative flex h-full w-1/3 flex-col items-start justify-start overflow-y-auto rounded-lg bg-brand-senary p-5 shadow-lg"
             in:fly={{ x: 500, duration: 300, easing: cubicInOut, delay: 200 }}
             out:fly={{ x: 500, duration: 300, easing: cubicInOut }}
         >

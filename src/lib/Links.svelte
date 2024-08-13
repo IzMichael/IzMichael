@@ -1,19 +1,27 @@
 <script lang="ts">
     const links: Link[] = [
         {
+            label: 'Email',
+            username: 'me@izmichael.com',
+            href: 'mailto:michael@izmichael.com',
+            color: '#6e43af',
+            icon: 'mail.svg',
+            span: 2,
+        },
+        {
             label: 'Twitter',
             username: '@IzMichael7',
             href: 'https://twitter.com/IzMichael7',
             color: '#00acee',
             icon: 'twitter.svg',
         },
-        {
-            label: 'Mastodon',
-            username: '@IzMichael',
-            href: 'https://mas.to/@IzMichael',
-            color: '#6265ff',
-            icon: 'mastodon.svg',
-        },
+        // {
+        //     label: 'Mastodon',
+        //     username: '@IzMichael',
+        //     href: 'https://mas.to/@IzMichael',
+        //     color: '#6265ff',
+        //     icon: 'mastodon.svg',
+        // },
         // {
         //     label: 'Threads',
         //     username: '@IzMichael7',
@@ -64,6 +72,7 @@
         href: string;
         color: string;
         icon: string;
+        span?: number;
     }
 </script>
 
@@ -71,15 +80,15 @@
     {#each links as link}
         <a
             class="group flex h-12 w-full flex-row items-center justify-center overflow-hidden rounded-lg px-4 py-2 text-center shadow-lg transition-all duration-300 ease-in-out hover:brightness-90 lg:h-16"
-            style="background-color: {link.color};"
+            style="background-color: {link.color}; grid-column: span {link.span ?? 1} / span {link.span ?? 1};"
             href={link.href}
         >
             <img src="/assets/icons/{link.icon}" alt="{link.label} Icon" class="aspect-square h-full invert" />
             <div class="flex h-full flex-1 flex-col items-center justify-center">
-                <p class="w-full text-right text-sm text-white">
+                <p class="w-full text-right text-sm text-brand-senary">
                     {link.label}
                 </p>
-                <p class="w-full text-right text-sm font-bold text-white">
+                <p class="w-full text-right text-sm font-bold text-brand-senary">
                     {link.username}
                 </p>
             </div>

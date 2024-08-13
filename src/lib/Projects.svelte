@@ -100,7 +100,7 @@
             href={selected.link}
             target="_blank"
         >
-            <span class="text-left text-white">
+            <span class="text-left text-brand-senary">
                 Visit {selected.name}
             </span>
             <img src="/assets/icons/arrow-right.svg" alt="Right Arrow" class="aspect-square h-7 w-7 invert" />
@@ -112,7 +112,7 @@
     <div class="contents flex-1 flex-col items-center justify-start gap-5 lg:flex">
         {#each projects.filter(evens) as project}
             <button
-                class="block w-full rounded-xl bg-white p-5 shadow-lg"
+                class="block w-full rounded-xl bg-brand-senary p-5 shadow-lg"
                 on:click={() => ((showSidePanel = true), (selected = project))}
             >
                 <h3 class="w-full text-left font-bold">{project.name}</h3>
@@ -126,7 +126,7 @@
     <div class="contents flex-1 flex-col items-center justify-start gap-5 lg:flex">
         {#each projects.filter(odds) as project}
             <button
-                class="block w-full rounded-xl bg-white p-5 shadow-lg"
+                class="block w-full rounded-xl bg-brand-senary p-5 shadow-lg"
                 on:click={() => ((showSidePanel = true), (selected = project))}
             >
                 <h3 class="w-full text-left font-bold">{project.name}</h3>

@@ -12,10 +12,12 @@
     <div
         class="mt-5 flex w-full flex-col items-center justify-start gap-5 px-7 lg:sticky lg:left-0 lg:top-0 lg:ml-5 lg:mt-0 lg:h-full lg:w-2/5 lg:justify-center lg:px-0"
     >
-        <div class="flex w-full flex-col items-center justify-center rounded-lg bg-white py-10 shadow-lg lg:w-2/3">
-            <img src="/faviconbg.png" alt="IzMichael's PFP" class="mb-3 h-40 w-40 rounded-full bg-teal p-2" />
+        <div
+            class="flex w-full flex-col items-center justify-center rounded-lg bg-brand-senary py-10 shadow-lg lg:w-2/3"
+        >
+            <img src="/faviconbg.png" alt="IzMichael's PFP" class="mb-3 h-40 w-40 rounded-full bg-brand-primary p-2" />
             <h1 class="font-rubik text-4xl font-bold">IzMichael</h1>
-            <h2 class="mt-2 font-rubik text-2xl font-semibold">Web Dev & Student</h2>
+            <h2 class="font-rubik mt-2 text-2xl font-semibold">Web Dev & Student</h2>
             <a class="font-semibold hover:text-[#00cccc] hover:underline" href="mailto:michael@izmichael.com">
                 michael@izmichael.com
             </a>
@@ -46,7 +48,9 @@
 
         <Container heading="Portfolio" id="portfolio">
             <p>I also do paid work from time to time.</p>
-            <a href="mailto:chat@izmichael.com" class="text-teal hover:underline">Interested? Let's chat.</a>
+            <a href="mailto:michael@izmichael.com" class="font-bold text-brand-primary hover:underline">
+                Interested? Let's chat.
+            </a>
         </Container>
         <Portfolio />
 
@@ -54,7 +58,7 @@
             <p>
                 &copy; IzMichael {new Date().getFullYear()} - Thanks for visiting!
                 <br />
-                <span class="text-sm text-gray-600">IzMichael's Website - Updated 30th April 2024</span>
+                <span class="text-sm text-gray-600">IzMichael's Website - Updated 13th August 2024</span>
             </p>
         </Container>
     </div>
