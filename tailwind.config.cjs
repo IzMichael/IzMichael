@@ -4,20 +4,15 @@ module.exports = {
     theme: {
         extend: {
             height: {
-                screen: '100dvh'
+                screen: '100dvh',
             },
             colors: {
-                teal: '#00cccc'
-            }
+                teal: '#00cccc',
+            },
         },
         fontFamily: {
-            sans: ['Lexend', 'Rubik', 'sans-serif'],
-            mono: ['Spline Sans Mono', 'monospace'],
-
-            lexend: ['Lexend'],
-            splinesans: ['Spline Sans Mono'],
-            rubik: ['Rubik'],
+            sans: ['Urbanist', 'sans-serif'],
         },
     },
     plugins: [],
-}
+};
