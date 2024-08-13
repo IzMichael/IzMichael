@@ -18,9 +18,6 @@
             <img src="/faviconbg.png" alt="IzMichael's PFP" class="mb-3 h-40 w-40 rounded-full bg-brand-primary p-2" />
             <h1 class="font-rubik text-4xl font-bold">IzMichael</h1>
             <h2 class="font-rubik mt-2 text-2xl font-semibold">Web Dev & Student</h2>
-            <a class="font-semibold hover:text-[#00cccc] hover:underline" href="mailto:michael@izmichael.com">
-                michael@izmichael.com
-            </a>
         </div>
 
         <Links />

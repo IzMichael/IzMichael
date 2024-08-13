@@ -2,7 +2,7 @@
     const links: Link[] = [
         {
             label: 'Email',
-            username: 'me@izmichael.com',
+            username: 'michael@izmichael.com',
             href: 'mailto:michael@izmichael.com',
             color: '#6e43af',
             icon: 'mail.svg',
