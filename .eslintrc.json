@@ -30,7 +30,8 @@
         "tailwindcss/no-contradicting-classname": "error",
         "prettier/prettier": "error",
         "arrow-body-style": "off",
-        "prefer-arrow-callback": "off"
+        "prefer-arrow-callback": "off",
+        "svelte/sort-attributes": "warn"
     },
     "plugins": ["tailwindcss", "@typescript-eslint"],
     "overrides": [
