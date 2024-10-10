@@ -17,9 +17,9 @@
     out:fly={{ duration: 300, easing: cubicInOut, x: 300 }}
 >
     <img
-        class="hidden aspect-video w-full rounded-xl object-cover object-center shadow-lg lg:block"
-        alt="A view of London Heathrow Airport, out of the window of an Emirates A380."
-        src="/assets/img/plane-wing-lhr.jpg"
+        class="w-full rounded-xl border-2 border-brand-quinary object-cover object-center shadow-lg"
+        alt="A screenshot from {data.href}"
+        src={data.image}
     />
     <h2 class="mt-10 w-full text-left text-3xl font-bold">{data.title}</h2>
     <p class="mt-2 text-lg">{data.description}</p>

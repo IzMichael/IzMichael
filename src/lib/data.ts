@@ -5,6 +5,7 @@ type Project = {
     href: string;
     date: string;
     color: string;
+    image: string;
 };
 
 export const projects: Project[] = [
@@ -16,6 +17,7 @@ export const projects: Project[] = [
         href: 'https://izmichael.com/',
         date: '2024-10-11',
         color: '#6A41AB',
+        image: '/assets/img/izmichael.png',
     },
     {
         title: 'Flaggle',
@@ -25,6 +27,7 @@ export const projects: Project[] = [
         href: 'https://flaggle.izmichael.com/',
         date: '2022-03-06',
         color: '#5d9bff',
+        image: '/assets/img/flaggle.png',
     },
     {
         title: 'MC Wardrobe',
@@ -34,6 +37,7 @@ export const projects: Project[] = [
         href: 'https://mc-wardrobe.izmichael.com/',
         date: '2023-05-11',
         color: '#15803d',
+        image: '/assets/img/mc-wardrobe.png',
     },
     {
         title: 'The Phoenix Pages',
@@ -43,6 +47,7 @@ export const projects: Project[] = [
         href: 'https://phoenix-pages.izmichael.com/',
         date: '2022-04-23',
         color: '#fa7523',
+        image: '/assets/img/the-phoenix-pages.png',
     },
 ].sort((a, b) => (a.date < b.date ? 1 : -1));
 
@@ -54,15 +59,17 @@ export const portfolio: Project[] = [
         href: 'https://therosyshell.co.nz',
         date: '2023-01-08',
         color: '#f121a6',
+        image: '/assets/img/the-rosy-shell.png',
     },
     {
         title: 'Church Contacts DB',
         slug: 'church-contacts-db',
         description:
-            'I built a contacts database and mass SMS client for my local church, using a PocketBase database and Svelte.',
+            'I built a contacts database and mass SMS client for my local church, using a PocketBase database and SvelteKit.',
         href: '',
         date: '2022-03-07',
         color: '#2597ab',
+        image: '/assets/img/church-db.png',
     },
 ].sort((a, b) => (a.date < b.date ? 1 : -1));
 
