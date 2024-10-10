@@ -8,10 +8,6 @@
         "resolveJsonModule": true,
         "skipLibCheck": true,
         "strict": true,
-        "paths": {
-            "$lib": ["./src/lib"],
-            "$lib/*": ["./src/lib/*"]
-        }
     },
     "include": [
         "./.svelte-kit/ambient.d.ts",
