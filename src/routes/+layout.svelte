@@ -90,6 +90,8 @@
             })}
             title="Portfolio"
         />
+
+        <p class="w-full text-left">&copy; 2024 - IzMichael</p>
     </div>
 
     <div class="w-full shrink-0 overflow-hidden lg:h-full lg:w-2/5">
