@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-    <script data-domain="izmichael.com" defer src="https://analytics.izmichael.com/js/script.js"></script>
+    <script defer src="https://analytics.izmichael.com/script.js" data-website-id="82cb03cc-3645-492b-b4f0-d928deb7fbcf"></script>
 
     <!-- Primary Meta Tags -->
     <meta name="title" content="IzMichael" />
